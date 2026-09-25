@@ -1,10 +1,29 @@
 ON-DEMAND
-"I need it now, I'll pay normally."
+"## ON-DEMAND
+With this model, I pay for the AWS resources based on how much I use them.
+I don't need to make a long-term commitment. This is useful when I am
+learning, testing, or when my usage is not predictable.".
 
 RESERVED
-"I know I'll need it for a long time,
-so I'll commit and get a discount."
+"## RESERVED INSTANCES
+
+With Reserved Instances, I make a commitment to use an eligible EC2
+configuration for a longer period. In return, I can get a discount
+compared with On-Demand pricing. This is useful when I know that I will
+need the resources for a long time.".
 
 SPOT
-"I can tolerate interruption,
-so I'll use cheaper spare capacity."
+"## SPOT
+
+Spot Instances allow me to use unused AWS computing capacity at a much
+lower price. However, AWS can interrupt the instance when it needs the
+capacity back. Therefore, Spot Instances are useful for workloads that
+can tolerate interruptions.". 
+
+
+## MY UNDERSTANDING
+
+As a learner, I think On-Demand is useful because I can use AWS resources
+when I need them without making a long-term commitment. Spot Instances
+can also be useful for suitable practice workloads because they are much
+cheaper, but I need to accept that they can be interrupted.
